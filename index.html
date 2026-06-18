@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LOOKERIK — Solutions Digitales & Design d'Intérieur à Paris. Création de sites web, modélisation 3D, montage vidéo, réseaux sociaux, IA et architecture d'intérieur." />
+  <meta name="keywords" content="design intérieur Paris, création site web, modélisation 3D SketchUp, montage vidéo, intelligence artificielle, AutoCAD, architecture" />
+  <title>LOOKERIK — Solutions Digitales & Design d'Intérieur à Paris</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="header">
+    <nav class="nav-container">
+      <a href="#home" class="logo">LOOK<span>ERIK</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"      data-i18n="nav_home">Accueil</a></li>
+        <li><a href="#services"  data-i18n="nav_services">Services</a></li>
+        <li><a href="#about"     data-i18n="nav_about">À propos</a></li>
+        <li><a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a></li>
+        <li><a href="#contact"   data-i18n="nav_contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="fr">FR</button>
+          <span class="lang-sep">|</span>
+          <button class="lang-btn" data-lang="es">ES</button>
+          <span class="lang-sep">|</span>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">PARIS · FRANCE</p>
+      <h1 class="hero-title">LOOK<span class="gold-k">ERIK</span></h1>
+      <h2 class="hero-subtitle" data-i18n="hero_subtitle">Solutions Digitales & Design d'Intérieur à Paris</h2>
+      <p class="hero-text" data-i18n="hero_text">Création de sites web, modélisation 3D, montage vidéo, réseaux sociaux, intelligence artificielle et architecture d'intérieur.</p>
+      <p class="hero-text-secondary" data-i18n="hero_text_secondary">J'accompagne particuliers et professionnels dans la réalisation de projets modernes, esthétiques et performants.</p>
+      <div class="hero-buttons">
+        <a href="https://wa.me/33635580900?text=Bonjour%20LOOKERIK%2C%20je%20souhaite%20vous%20contacter%20pour%20un%20projet." class="btn btn-primary" target="_blank" rel="noopener">
+          <span>📱</span><span data-i18n="hero_btn_whatsapp">Contactez-moi sur WhatsApp</span>
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          <span>📄</span><span data-i18n="hero_btn_quote">Demander un devis gratuit</span>
+        </a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section services">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow" data-i18n="services_eyebrow">Ce que je propose</p>
+        <h2 class="section-title" data-i18n="services_title">Mes Services</h2>
+        <div class="gold-line"></div>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">💻</div>
+          <h3 data-i18n="s1_title">Création de Sites Web</h3>
+          <p data-i18n="s1_desc">Sites vitrines, portfolios, landing pages et solutions professionnelles modernes.</p>
+          <div class="card-line"></div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🎬</div>
+          <h3 data-i18n="s2_title">Montage Vidéo</h3>
+          <p data-i18n="s2_desc">TikTok, Reels, Shorts YouTube et vidéos promotionnelles de haute qualité.</p>
+          <div class="card-line"></div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">📱</div>
+          <h3 data-i18n="s3_title">Réseaux Sociaux</h3>
+          <p data-i18n="s3_desc">Gestion de contenu, stratégie éditoriale et développement de visibilité.</p>
+          <div class="card-line"></div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🤖</div>
+          <h3 data-i18n="s4_title">Intelligence Artificielle</h3>
+          <p data-i18n="s4_desc">Création de contenus, automatisation et optimisation de tâches avec l'IA.</p>
+          <div class="card-line"></div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">📐</div>
+          <h3 data-i18n="s5_title">Plans & AutoCAD</h3>
+          <p data-i18n="s5_desc">Plans techniques, aménagement intérieur et accompagnement en rénovation.</p>
+          <div class="card-line"></div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🏠</div>
+          <h3 data-i18n="s6_title">Modélisation 3D SketchUp</h3>
+          <p data-i18n="s6_desc">Maisons, appartements, cuisines, chambres, salons et présentations réalistes.</p>
+          <div class="card-line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container about-grid">
+      <div class="about-visual reveal">
+        <div class="about-image-frame">
+          <img src="assets/about.jpg" alt="Paris la nuit — LOOKERIK" class="about-photo" />
+          <div class="about-frame-border"></div>
+        </div>
+      </div>
+      <div class="about-content reveal">
+        <p class="section-eyebrow" data-i18n="about_eyebrow">Mon histoire</p>
+        <h2 class="section-title" data-i18n="about_title">À propos de LOOKERIK</h2>
+        <div class="gold-line left"></div>
+        <p class="about-text" data-i18n="about_p1">Je m'efforce toujours de fournir un travail précis, professionnel et de haute qualité.</p>
+        <p class="about-text" data-i18n="about_p2">Basé à Paris, j'accompagne particuliers, entrepreneurs et petites entreprises dans leurs projets digitaux, architecturaux et créatifs. Grâce à ma double compétence en design numérique et en architecture, je propose des solutions complètes adaptées aux besoins de chaque client.</p>
+        <ul class="about-list">
+          <li><span class="list-dot"></span><span data-i18n="about_l1">BAC Pro Technicien d'Études du Bâtiment (Assistant Architecte)</span></li>
+          <li><span class="list-dot"></span><span data-i18n="about_l2">BTS ERASME Architecture et Design d'Intérieur (en cours)</span></li>
+          <li><span class="list-dot"></span><span data-i18n="about_l3">Basé à Paris — Approche personnalisée</span></li>
+          <li><span class="list-dot"></span><span data-i18n="about_l4">Qualité, précision et écoute client</span></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary" data-i18n="about_cta">Travaillons ensemble</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="section portfolio">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow" data-i18n="portfolio_eyebrow">Mes réalisations</p>
+        <h2 class="section-title" data-i18n="portfolio_title">Portfolio</h2>
+        <div class="gold-line"></div>
+      </div>
+
+      <div class="portfolio-filters reveal">
+        <button class="filter-btn active" data-filter="all"      data-i18n="filter_all">Tous</button>
+        <button class="filter-btn" data-filter="3d"             data-i18n="filter_3d">Modélisation 3D</button>
+        <button class="filter-btn" data-filter="interior"       data-i18n="filter_interior">Design Intérieur</button>
+        <button class="filter-btn" data-filter="plans"          data-i18n="filter_plans">Plans & AutoCAD</button>
+        <button class="filter-btn" data-filter="web"            data-i18n="filter_web">Sites Web</button>
+        <button class="filter-btn" data-filter="video"          data-i18n="filter_video">Vidéo</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolioGrid">
+
+        <!-- 1 - L'Arte Estrella 3D vue extérieure -->
+        <div class="portfolio-card reveal" data-category="3d">
+          <div class="portfolio-img">
+            <img src="assets/project1.jpg" alt="L'Arte Estrella — Vue 3D extérieure" loading="lazy" />
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-cat" data-i18n="cat_3d">Modélisation 3D</span>
+            <h3>L'Arte Estrella — Galerie d'Art</h3>
+            <p data-i18n="p1_desc">Modélisation 3D complète d'une galerie d'art contemporaine avec espace extérieur paysager.</p>
+          </div>
+        </div>
+
+        <!-- 2 - L'Arte Estrella plan masse -->
+        <div class="portfolio-card reveal" data-category="plans">
+          <div class="portfolio-img">
+            <img src="assets/project2.jpg" alt="L'Arte Estrella — Plan de masse" loading="lazy" />
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-cat" data-i18n="cat_plans">Plans & AutoCAD</span>
+            <h3>L'Arte Estrella — Plan d'Aménagement</h3>
+            <p data-i18n="p2_desc">Plan de masse détaillé avec cotations, aménagement intérieur et espaces verts.</p>
+          </div>
+        </div>
+
+        <!-- 3 - Rénovation salon -->
+        <div class="portfolio-card reveal" data-category="interior">
+          <div class="portfolio-img">
+            <img src="assets/project3.jpg" alt="Rénovation salon contemporain" loading="lazy" />
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-cat" data-i18n="cat_interior">Design Intérieur</span>
+            <h3 data-i18n="p3_title">Rénovation Salon — Design Contemporain</h3>
+            <p data-i18n="p3_desc">Conception 3D d'un salon rénové avec mur TV, lambris bois et éclairage design.</p>
+          </div>
+        </div>
+
+        <!-- 4 - Plan AutoCAD RDC maison -->
+        <div class="portfolio-card reveal" data-category="plans">
+          <div class="portfolio-img">
+            <img src="assets/project4.jpg" alt="Plan AutoCAD RDC" loading="lazy" />
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-cat" data-i18n="cat_plans">Plans & AutoCAD</span>
+            <h3>Restaurant — Plan 3D SketchUp</h3>
+            <p>Aménagement 3D complet d'un restaurant sur plan AutoCAD exporté sous SketchUp — tables, espaces et circulation.</p>
+          </div>
+        </div>
+
+        <!-- 5 - Salon moderne SketchUp -->
+        <div class="portfolio-card reveal" data-category="3d">
+          <div class="portfolio-img">
+            <img src="assets/project5.jpg" alt="Salon moderne SketchUp" loading="lazy" />
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-cat" data-i18n="cat_3d">Modélisation 3D</span>
+            <h3 data-i18n="p5_title">Salon Moderne — Design Épuré</h3>
+            <p data-i18n="p5_desc">Modélisation 3D d'un salon contemporain avec mur TV intégré, canapé modulable et étagères design.</p>
+          </div>
+        </div>
+
+        <!-- 6 - Appartement Saint-Quentin -->
+        <div class="portfolio-card reveal" data-category="3d">
+          <div class="portfolio-img">
+            <img src="assets/project6.jpg" alt="Appartement Saint-Quentin-en-Yvelines" loading="lazy" />
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-cat" data-i18n="cat_3d">Modélisation 3D</span>
+            <h3 data-i18n="p6_title">Appartement — Saint-Quentin-en-Yvelines</h3>
+            <p data-i18n="p6_desc">Aménagement complet en 3D d'un appartement près de la Gare de Saint-Quentin-en-Yvelines.</p>
+          </div>
+        </div>
+
+        <!-- 7 - Site Web Travail perso -->
+        <div class="portfolio-card reveal" data-category="web">
+          <div class="portfolio-img">
+            <img src="assets/project7.jpg" alt="Site Web — Travail personnel" loading="lazy" />
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-cat" data-i18n="cat_web">Site Web</span>
+            <h3>Site Web — Travail Personnel</h3>
+            <p data-i18n="p7_desc">Conception et développement d'un site web professionnel premium avec design sombre élégant.</p>
+          </div>
+        </div>
+
+        <!-- 8 - Site Web Boulangerie -->
+        <div class="portfolio-card reveal" data-category="web">
+          <div class="portfolio-img">
+            <img src="assets/project8.jpg" alt="Site Web — Boulangerie" loading="lazy" />
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-cat" data-i18n="cat_web">Site Web</span>
+            <h3>La Fournée du Palais</h3>
+            <p data-i18n="p8_desc">Landing page premium pour une boulangerie artisanale avec boutique en ligne intégrée.</p>
+          </div>
+        </div>
+
+        <!-- 9 - VIDEO L'Arte Estrella -->
+        <div class="portfolio-card portfolio-card--video reveal" data-category="video">
+          <div class="portfolio-img video-card">
+            <video id="arteVideo" preload="none" poster="assets/project1.jpg">
+              <source src="assets/arte_estrella.mp4" type="video/mp4" />
+            </video>
+            <div class="video-overlay" id="videoOverlay">
+              <button class="play-btn" id="playBtn" aria-label="Lire la vidéo">
+                <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="30" cy="30" r="29" stroke="#D4AF37" stroke-width="1.5"/>
+                  <polygon points="24,18 46,30 24,42" fill="#D4AF37"/>
+                </svg>
+              </button>
+              <p class="video-label">L'Arte Estrella — Visite 3D</p>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-cat" data-i18n="cat_video">Vidéo</span>
+            <h3>L'Arte Estrella — Visite Virtuelle 3D</h3>
+            <p data-i18n="p9_desc">Vidéo de présentation du projet 3D complet de la galerie d'art L'Arte Estrella — intérieurs, espaces et ambiances.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process" class="section process">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow" data-i18n="process_eyebrow">Méthode de travail</p>
+        <h2 class="section-title" data-i18n="process_title">Comment se déroule un projet ?</h2>
+        <div class="gold-line"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-number">01</div>
+          <div class="timeline-content">
+            <h3 data-i18n="step1_title">Prise de contact</h3>
+            <p data-i18n="step1_desc">Échangeons sur vos besoins, vos objectifs et votre vision via WhatsApp, email ou formulaire.</p>
+          </div>
+          <div class="timeline-connector"></div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-number">02</div>
+          <div class="timeline-content">
+            <h3 data-i18n="step2_title">Analyse du projet</h3>
+            <p data-i18n="step2_desc">J'étudie en détail votre demande et identifie les meilleures solutions adaptées à votre budget.</p>
+          </div>
+          <div class="timeline-connector"></div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-number">03</div>
+          <div class="timeline-content">
+            <h3 data-i18n="step3_title">Proposition personnalisée</h3>
+            <p data-i18n="step3_desc">Je vous soumets un devis clair, un planning précis et une première esquisse de votre projet.</p>
+          </div>
+          <div class="timeline-connector"></div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-number">04</div>
+          <div class="timeline-content">
+            <h3 data-i18n="step4_title">Réalisation</h3>
+            <p data-i18n="step4_desc">Je travaille avec rigueur et vous tiens informé à chaque étape, avec des points de validation réguliers.</p>
+          </div>
+          <div class="timeline-connector"></div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-number">05</div>
+          <div class="timeline-content">
+            <h3 data-i18n="step5_title">Livraison</h3>
+            <p data-i18n="step5_desc">Livraison soignée de tous les fichiers finaux, avec accompagnement et support post-projet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section id="why" class="section why">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow" data-i18n="why_eyebrow">Mes engagements</p>
+        <h2 class="section-title" data-i18n="why_title">Pourquoi choisir LOOKERIK ?</h2>
+        <div class="gold-line"></div>
+      </div>
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <div class="why-icon">✦</div>
+          <h3 data-i18n="why1_title">Qualité Professionnelle</h3>
+          <p data-i18n="why1_desc">Chaque projet est traité avec le même soin et la même exigence, qu'il s'agisse d'un site vitrine ou d'une rénovation complète.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon">◈</div>
+          <h3 data-i18n="why2_title">Approche Personnalisée</h3>
+          <p data-i18n="why2_desc">Vos besoins sont uniques. Je prends le temps de comprendre votre vision pour créer des solutions vraiment sur mesure.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon">⬡</div>
+          <h3 data-i18n="why3_title">Compétences Multiples</h3>
+          <p data-i18n="why3_desc">Architecture, digital, vidéo, IA — une seule personne de confiance pour l'ensemble de vos projets créatifs et techniques.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon">◉</div>
+          <h3 data-i18n="why4_title">Accompagnement Complet</h3>
+          <p data-i18n="why4_desc">De la première idée à la livraison finale, je reste disponible et impliqué à chaque étape de votre projet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow" data-i18n="contact_eyebrow">Démarrons</p>
+        <h2 class="section-title" data-i18n="contact_title">Parlons de votre projet</h2>
+        <div class="gold-line"></div>
+        <p class="contact-intro" data-i18n="contact_intro">Vous avez une idée, un projet ou besoin d'un accompagnement ? Contactez-moi pour obtenir un devis personnalisé.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <p class="contact-label" data-i18n="contact_phone_label">Téléphone</p>
+              <a href="tel:+33635580900" class="contact-value">+33 6 35 58 09 00</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">💬</div>
+            <div>
+              <p class="contact-label">WhatsApp</p>
+              <a href="https://wa.me/33635580900" class="contact-value" target="_blank" rel="noopener">+33 6 35 58 09 00</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <p class="contact-label">Email</p>
+              <a href="mailto:erikncb2004@gmail.com" class="contact-value">erikncb2004@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <p class="contact-label" data-i18n="contact_location_label">Localisation</p>
+              <p class="contact-value">Paris, France</p>
+            </div>
+          </div>
+          <a href="https://wa.me/33635580900?text=Bonjour%20LOOKERIK%2C%20je%20souhaite%20vous%20contacter%20pour%20un%20projet." class="btn btn-primary wa-btn" target="_blank" rel="noopener">
+            <span>📱</span><span data-i18n="contact_whatsapp_btn">WhatsApp Direct</span>
+          </a>
+        </div>
+        <form class="contact-form reveal" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name" data-i18n="form_name">Nom</label>
+              <input type="text" id="name" name="name" required placeholder="Votre nom" />
+            </div>
+            <div class="form-group">
+              <label for="email" data-i18n="form_email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="votre@email.com" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone" data-i18n="form_phone">Téléphone</label>
+              <input type="tel" id="phone" name="phone" placeholder="+33 6 XX XX XX XX" />
+            </div>
+            <div class="form-group">
+              <label for="project" data-i18n="form_project">Type de projet</label>
+              <select id="project" name="project">
+                <option value="" data-i18n="form_project_select">Sélectionnez</option>
+                <option value="web">Site Web</option>
+                <option value="3d">Modélisation 3D</option>
+                <option value="interior">Design d'Intérieur</option>
+                <option value="video">Montage Vidéo</option>
+                <option value="social">Réseaux Sociaux</option>
+                <option value="ai">Intelligence Artificielle</option>
+                <option value="plans">Plans & AutoCAD</option>
+                <option value="other">Autre</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group full">
+            <label for="message" data-i18n="form_message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Décrivez votre projet..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary submit-btn">
+            <span data-i18n="form_submit">Envoyer la demande</span>
+          </button>
+          <p class="form-success" id="formSuccess">Message envoyé ! Je vous réponds dans les 24h. ✓</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo">LOOK<span>ERIK</span></a>
+        <p data-i18n="footer_desc">Solutions digitales, design d'intérieur et modélisation 3D à Paris.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Instagram">IG</a>
+          <a href="#" class="social-link" aria-label="TikTok">TK</a>
+          <a href="#" class="social-link" aria-label="LinkedIn">LI</a>
+          <a href="#" class="social-link" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4 data-i18n="footer_nav">Liens rapides</h4>
+        <ul>
+          <li><a href="#home"      data-i18n="nav_home">Accueil</a></li>
+          <li><a href="#services"  data-i18n="nav_services">Services</a></li>
+          <li><a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a></li>
+          <li><a href="#contact"   data-i18n="nav_contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4 data-i18n="footer_legal_title">Légal</h4>
+        <ul>
+          <li><a href="#" data-i18n="footer_legal">Mentions légales</a></li>
+          <li><a href="#" data-i18n="footer_privacy">Politique de confidentialité</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4 data-i18n="footer_contact_title">Contact</h4>
+        <p><a href="tel:+33635580900">+33 6 35 58 09 00</a></p>
+        <p><a href="mailto:erikncb2004@gmail.com">erikncb2004@gmail.com</a></p>
+        <p>Paris, France</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer_copy">© 2025 LOOKERIK. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
